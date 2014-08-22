@@ -16,3 +16,6 @@ after_script:
 - rm -rf builds/build/sources builds/build/build.state.yaml
 - PATH=/home/travis/virtualenv/python2.7.8/bin/:$PATH bakery-report.py builds/build
 - PATH=/home/travis/virtualenv/python2.7.8/bin/:$PATH travis-deploy.py
+env:
+  global:
+    secure: cyAg8Z8mElMsq0I+W8w87W12lz2p0j5BqDIbSllI9nLCqsx+XBzdhxCbPVgsFADmN55cEExUMLmNOTMSmI00zm/mOTKF1yx/a1lLMCbslSETizBr/7Tc2RbF2+ZmN8lZsLxxPYO6CSNFY5qYi0yqHnNJeZJlj4PXos+8XI4hkWc=
